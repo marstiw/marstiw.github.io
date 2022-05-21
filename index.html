@@ -1,14 +1,16 @@
 <html>
 <head>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
 
 setInterval(function(){
     console.log(new Date());
-    alert(new Date());
+    //alert(new Date());
+    $("#myDiv").text = new Date();
 },1000)
 </script>
 </head>
-
+<div id="time"><div>
 
 hell0 word
 </html>
